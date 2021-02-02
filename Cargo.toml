@@ -1,0 +1,12 @@
+[package]
+name = "testrustssz"
+version = "0.1.0"
+authors = ["Guillaume Ballet <gballet@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eth2_ssz={ version="0.1.2", path="../lighthouse/consensus/ssz" }
+#tree_hash={ version="0.1.1", path="../lighthouse/consensus/tree_hash" }
+hex = "0.4.2"
